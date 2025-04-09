@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/healthy-food-/static/css/main.d840e1d5.css",
+    "main.js": "/healthy-food-/static/js/main.61755985.js",
+    "index.html": "/healthy-food-/index.html",
+    "main.d840e1d5.css.map": "/healthy-food-/static/css/main.d840e1d5.css.map",
+    "main.61755985.js.map": "/healthy-food-/static/js/main.61755985.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d840e1d5.css",
+    "static/js/main.61755985.js"
+  ]
+}
