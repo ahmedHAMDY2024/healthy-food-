@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", system-ui;
+  background-color: hsl(20, 50%, 98%);
+}
+.title {
+  display: block;
+  width: 100%;
+}
+
+main {
+  padding: 30px 40px;
+  display: flex;
+}
+.cardMain {
+  width: 30%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+}
+.contntiner {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 50px;
+}
+/* .contntiner h1{
+    width: 100%;
+} */
+.cardPro {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 0;
+}
+.card-img-top-pro {
+  width: 100%;
+  border-radius: 10px;
+}
+.divBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#btn-card:hover {
+  color: hsl(14, 86%, 42%);
+  border: 1px solid hsl(14, 86%, 42%);
+}
+.card-title {
+  font-size: 15px;
+  font-weight: 300;
+  color: hsl(7, 20%, 60%);
+}
+.amount-span {
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(14, 86%, 42%);
+}
+.h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(14, 86%, 42%);
+}
+.minus,
+.plus {
+  /* background-color: antiquewhite; */
+  display: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid hsl(20, 50%, 98%);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 900;
+  border-radius: 50%;
+}
+.proClick {
+  display: none;
+  background-color: hsl(14, 86%, 42%);
+}
+.btn-card {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  font-weight: 400;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-top: -30px;
+}
+
+.active {
+  background-color: hsl(14, 86%, 42%);
+  color: hsl(20, 50%, 98%);
+  border: 0;
+  width: 140px;
+  height: 35px;
+  display: flex;
+  font-weight: 400;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 30px;
+  margin-top: -30px;
+}
+.active span {
+  display: block;
+  color: hsl(20, 50%, 98%);
+}
+.active .span:hover {
+  color: hsl(14, 86%, 42%);
+  background-color: hsl(20, 50%, 98%);
+}
+.active .carImg {
+  display: none;
+}
+.newImg {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid hsl(14, 86%, 42%);
+}
+.card-text {
+  color: hsl(12, 20%, 44%);
+}
+.btnConfirm {
+  background-color: hsl(14, 86%, 42%);
+  color: hsl(20, 50%, 98%);
+  border: 0;
+  width: 90%;
+  height: 40px;
+  font-weight: 400;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+.carConfirm {
+  color: hsl(12, 20%, 44%);
+  background-color: hsl(20, 50%, 98%);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+.none {
+  display: none;
+}
+.carFree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

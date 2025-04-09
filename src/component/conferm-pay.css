@@ -1,0 +1,119 @@
+.continer {
+  background-color: hsl(20, 50%, 98%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.nistedMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.data {
+  text-align: start;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+}
+.name {
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(12, 20%, 44%);
+}
+.caunt {
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(14, 86%, 42%);
+}
+.price {
+  font-size: 10px;
+  font-weight: 400;
+  color: hsl(12, 20%, 44%);
+}
+.total-price {
+  text-align: center;
+}
+.hr {
+  width: 85%;
+  height: 0px;
+  align-self: center;
+}
+.margen {
+  font-size: 12px;
+  margin: 5px;
+}
+.OrderTotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  text-align: center;
+}
+.totalName {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(12, 20%, 44%);
+}
+.totalPraic {
+  font-size: 15px;
+  font-weight: 700;
+}
+.box {
+  display: flex;
+  justify-content: start;
+}
+
+.confermBtn {
+  background-color: hsl(14, 86%, 42%);
+  color: hsl(20, 50%, 98%);
+  border: 0;
+  width: 400px;
+  height: 40px;
+  font-weight: 400;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+/* .icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: start;
+  text-align: start;
+} */
+.discrebtion {
+  text-align: start;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(12, 20%, 44%);
+  margin-bottom: 30px;
+}
+.titlecar {
+  color: rgb(11, 11, 11);
+  text-align: start;
+  font-weight: 600;
+}
+.cancelOrder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  text-align: center;
+  border: 1px solid hsl(12, 20%, 44%);
+}
+.cancelOrderSpan {
+  position: absolute;
+  text-align: center;
+  font-size: 15px;
+  top: 1px;
+  left: 5px;
+  border: 0;
+}
