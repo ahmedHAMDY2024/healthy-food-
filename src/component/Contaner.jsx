@@ -9,6 +9,7 @@ function Contaner() {
     const Data = useSelector((state) => state.Product);
     const cuonter = useSelector((state) => state.Counter);
     // const delet = useSelector((state) => state.Delet);
+    console.log(useSelector);    
     const despatch=useDispatch()
     const [Cuonter,setCuonter]=useState(cuonter)
     const[product,setproduct]=useState(Data);
@@ -141,13 +142,12 @@ console.log(Data);
  return(
         <main>
             <div className="contntiner">
-            <h1 className="title">Desserts</h1>
-        {card}
-        </div>
-        <div>
-        <CarCard props={{dataCar,product,Cuonter,data,TotalPrice}}>
-        </CarCard>
-        </div>
+                    <h1 className="title">Desserts</h1>
+                   {card}
+            </div>
+            <div>
+                 <CarCard props={{dataCar,product,Cuonter,data,TotalPrice}}></CarCard>
+            </div>
         </main>
     )
     

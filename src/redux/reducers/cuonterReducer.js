@@ -1,6 +1,6 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable default-case */
-import product from'/taskes/product-list-with-cart-main/product-list-with-cart/src/db.json'
+import product from'../db.json'
 let Counter=Array(product.product.length).fill(0)
 const cuonterReducer=(stat=Counter,action)=>{
     const cuont=stat

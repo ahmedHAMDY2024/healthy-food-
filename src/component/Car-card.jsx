@@ -15,6 +15,8 @@ function CarCard({props,children}){
 // console.log(children);
 
     return(
+     <>
+        <button onClick={handelCar} className="min-width">({props.dataCar>0 ? props.dataCar:0 })</button>
         <div className="cardMain" style={{width:" 23rem"}}>
             <h2 className="card-title h2" >your cart ({props.dataCar>0 ? props.dataCar:0 })</h2>
         <div className={props.dataCar===0?"carFree":"none"}>
@@ -39,6 +41,8 @@ function CarCard({props,children}){
         <button type={'button'} onClick={handelCar} className={props.dataCar>0?"btnConfirm":"none"}>Confirm order</button>
         </div>
         </div>
+   </>
+
     )
 }
 export default CarCard
